@@ -1,0 +1,151 @@
+* {
+  margin: 0; padding: 0
+}
+
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(https://github.com/ValeSh22/repo-diploma2/tree/master/font/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(https://github.com/ValeSh22/repo-diploma2/tree/master/font/OpenSans-Bold.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.page {
+  font-family: Open Sans, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  max-width: 320px;
+  
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  background-image: url("img/football_767.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #1b1d3f;
+  padding: 10% 7% 0;
+}
+
+.header:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #1b1d3f;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-container {
+  z-index: 2;
+  width: 100%;
+}
+
+.header-logo {
+  width: 135px;
+  margin-bottom: 135px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  fill: #ffffff;
+}
+
+.header-slogan {
+  font-family: "Open Sans";
+  font-size: 28px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 220px;
+}
+
+.sport {
+  margin-top: 30px;
+  padding-left: 15%;
+}
+
+.heder-buttom {
+  margin: 90px 0 85px;
+}
+
+.buttom {
+  margin-top: 15px;
+  width: 100%;
+  font-size: 8px;
+  padding: 5px 20px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  background-color: #5e42b0;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: "Open Sans";
+}
+
+.app-store{
+  background-image: url("svg/apple_logo_black.svg");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 28% center;
+}
+
+.google-play{
+  background-image: url("svg/google-play.svg");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 28% center;
+}
+
+.app-stor-link, .google-play-link {
+  font-weight: 400; 
+  text-align: center;
+}
+.buttom-description {
+  display: block;
+}
+
+.main-container {
+  width: 320px;
+  padding: 26px 21px 0;
+  box-sizing: border-box;
+  
+  display: flex;
+} 
+
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.athlets-title {
+  font-size: 50px;
+  line-height: 60px;
+  color: #e7e7e7;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.athlets-img {
+  box-sizing: border-box;
+  margin-right: 30px;
+}
+
