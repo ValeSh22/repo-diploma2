@@ -103,14 +103,14 @@
 }
 
 .app-store{
-  background-image: url("https://github.com/ValeSh22/repo-diploma2/blob/master/svg/apple_logo_black.svg");
+  background-image: url("https://valesh22.github.io/repo-diploma2/svg/apple_logo_black.svg");
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: 28% center;
 }
 
 .google-play{
-  background-image: url("https://github.com/ValeSh22/repo-diploma2/blob/master/svg/google-play.svg");
+  background-image: url("https://valesh22.github.io/repo-diploma2/svg/google-play.svg");
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: 28% center;
@@ -317,7 +317,7 @@ text-transform: uppercase;
   min-height: 100vh;
   display: flex;
   position: relative;
-  background-image: url("https://github.com/ValeSh22/repo-diploma2/tree/master/img/game_767.jpg");
+  background-image: url("https://valesh22.github.io/repo-diploma2/img/game_767.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
