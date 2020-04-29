@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: "Open Sans", sans-serif;
-  src: url("https://github.com/ValeSh22/repo-diploma2/tree/master/font/OpenSans-Regular.woff");
+  src: url("https://valesh22.github.io/repo-diploma2/font/OpenSans-Regular.woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans", sans-serif;
-  src: url("https://github.com/ValeSh22/repo-diploma2/tree/master/font/OpenSans-Bold.woff");
+  src: url("https://valesh22.github.io/repo-diploma2/font/OpenSans-Bold.woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -37,6 +37,7 @@
   background-repeat: no-repeat;
   background-color: #1b1d3f;
   padding: 10% 7% 0;
+  z-index: 1;
 }
 
 .header::before {
