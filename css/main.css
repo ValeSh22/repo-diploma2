@@ -153,7 +153,6 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 2,8%;
 }
 
 .athlets,
@@ -204,8 +203,7 @@
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
-  margin-top: 28px;
-  
+  margin-top: 28px; 
 }
 
 .number {
@@ -255,6 +253,7 @@ text-transform: uppercase;
   color: #000000;
   font-family: "Open Sans";
   font-weight: 400;
+  text-transform: lowercase;
 }
  
 .third-avdatages {
@@ -268,6 +267,7 @@ text-transform: uppercase;
  color: #ffffff;
  font-family: "Open Sans";
  font-weight: 400;
+ text-transform: lowercase;
 }
 
 .athlets:nth-child(n + 2) {
@@ -287,13 +287,13 @@ text-transform: uppercase;
 }
 
 .third-number {
-font-size: 14px;
-letter-spacing: 1px;
-line-height: 34px;
-color: #000000;
-font-family: "Open Sans";
-font-weight: 700;
-text-transform: uppercase;
+ font-size: 14px;
+ letter-spacing: 1px;
+ line-height: 34px;
+ color: #000000;
+ font-family: "Open Sans";
+ font-weight: 700;
+ text-transform: uppercase;
 }
 
 .third-number::after {
@@ -314,10 +314,10 @@ text-transform: uppercase;
 }
 
 .be-active-img {
- min-height: 100vh;
+  min-height: 100vh;
   display: flex;
   position: relative;
-  background-image: url("https://github.com/ValeSh22/repo-diploma2/tree/master/img/football_767.jpg");
+  background-image: url("https://valesh22.github.io/repo-diploma2/img/football_767.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
