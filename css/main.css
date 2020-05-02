@@ -73,7 +73,7 @@
   text-transform: uppercase;
   font-weight: 700;
   width: 220px;
-  margin-top: 204px;
+  margin-top: 184px;
 }
 
 .sport {
@@ -126,7 +126,6 @@
 
 .buttom-description {
   display: block;
-  text-align: center;
 }
 
 .main-container {
