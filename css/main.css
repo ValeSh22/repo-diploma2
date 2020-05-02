@@ -106,11 +106,8 @@
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: 28% center;
+  fill: #ffffff;
   
-}
-
-.app-store:hover {
-  fill: #111;
 }
 
 .google-play {
@@ -118,12 +115,8 @@
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: 28% center;
+  fill: #ffffff;
 }
-
-.google-play:hover {
-  fill: #111;
-}
-
 
 .app-stor-link, .google-play-link {
   font-weight: 400; 
@@ -376,3 +369,27 @@ text-transform: uppercase;
 .footer-buttom {
   margin: 90px 0 85px;
 }
+
+@media(max-width: 960px) {
+  .aside__menu {
+    display: none;
+  }
+}
+
+@media(min-width: 961px) {
+  .aside {
+    max-width: 320px;
+    min-width: 320px;
+    margin-right: 40px;
+    }
+  
+  .content {
+    max-width: 100%;
+    }
+  
+  .page {
+    display: flex;
+    flex-direction: row-reverse; 
+  }
+}
+
