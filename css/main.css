@@ -93,7 +93,7 @@
   color: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   background-color: #5e42b0;
   border: none;
   border-radius: 25px;
@@ -109,18 +109,18 @@
   
 }
 
-.app-store:hover{
+.app-store:hover {
   fill: #111;
 }
 
-.google-play{
+.google-play {
   background-image: url("https://valesh22.github.io/repo-diploma2/svg/google-play.svg");
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: 28% center;
 }
 
-.google-play:hover{
+.google-play:hover {
   fill: #111;
 }
 
@@ -133,7 +133,7 @@
 
 .buttom-description {
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 .main-container {
