@@ -147,17 +147,16 @@
 }
 
 .athlets,
-.players {
+.plaiers {
   font-size: 50px;
   line-height: 60px;
   color: #e7e7e7;
   font-family: "Open Sans";
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .athlets-title,
-.players-title {
+.plaiers-title {
   padding-left: 24px;
   padding-top: 54px;
   font-size: 50px;
@@ -169,7 +168,7 @@
 }
 
 .athlets-img,
- players-img {
+ plaiers-img {
   box-sizing: border-box;
   margin-left: 6%;
   position: absolute;
@@ -222,13 +221,12 @@
 }
 
 .number {
-font-size: 14px;
-letter-spacing: 1px;
-line-height: 34px;
-color: #000000;
-font-family: "Open Sans";
-font-weight: 700;
-text-transform: uppercase;
+ font-size: 14px;
+ letter-spacing: 1px;
+ line-height: 34px;
+ color: #000000;
+ font-family: "Open Sans";
+ font-weight: 700;
 }
 
 .first-title-avdatages,
@@ -242,7 +240,7 @@ text-transform: uppercase;
   font-weight: 700;
   text-transform: uppercase;
   
-  margin-left: 9px;
+  margin-left: 9px; 
  } 
 
 .number::after {
@@ -276,13 +274,13 @@ text-transform: uppercase;
   margin-top: 26px;
   box-sizing: border-box;
  
- font-size: 15px;
- letter-spacing: 1px;
- line-height: 18px;
- color: #ffffff;
- font-family: "Open Sans";
- font-weight: 400;
- text-transform: lowercase;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-transform: lowercase;
 }
 
 .athlets:nth-child(n + 2) {
