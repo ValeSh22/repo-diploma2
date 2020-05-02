@@ -126,13 +126,14 @@
 
 .buttom-description {
   display: block;
+  text-align: left;
 }
 
 .main-container {
   max-width: 320px;
   width: 100%;
   min-height: 100vh;
-  padding: 26px 0 21px;
+  padding: 25px 0 21px;
   box-sizing: border-box;
   
   display: flex;
