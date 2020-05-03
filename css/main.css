@@ -150,6 +150,7 @@
 
 .athlets,
 .plaiers {
+  padding-top: 25px;
   font-size: 50px;
   line-height: 60px;
   color: #e7e7e7;
@@ -160,7 +161,6 @@
 .athlets-title,
 .plaiers-title {
   padding-left: 24px;
-  padding-top: 54px;
   font-size: 50px;
   line-height: 60px;
   color: #e7e7e7;
