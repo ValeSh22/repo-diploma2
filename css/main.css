@@ -106,8 +106,10 @@
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: 28% center;
-  fill: #ffffff;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  fill: #ffffff;
 }
 
 .google-play {
@@ -115,8 +117,10 @@
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: 28% center;
-  fill: #ffffff;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  fill: #ffffff;
 }
 
 .app-stor-link, .google-play-link {
@@ -422,13 +426,14 @@
   content: "";
   width: 72px;
   height: 74px;
-  background-color: #7151cf;
-  opacity: 0.8;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  background-color: #5e42b0;
+  border: none;
+  border-radius: 25px;
 }
 
 .footer-logo {
@@ -438,6 +443,7 @@
   margin-left: auto;
   margin-right: auto;
   fill: #ffffff;
+  z-index: 1;
 }
 
 .footer-slogan {
