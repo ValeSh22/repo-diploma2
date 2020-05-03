@@ -107,6 +107,7 @@
   background-repeat: no-repeat;
   background-position: 28% center;
   fill: #ffffff;
+  display: block;
 }
 
 .google-play {
@@ -115,6 +116,7 @@
   background-repeat: no-repeat;
   background-position: 28% center;
   fill: #ffffff;
+  display: block;
 }
 
 .app-stor-link, .google-play-link {
@@ -412,9 +414,29 @@
   width: 100%;
 }
 
+.footer-short-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  fill: #ffffff;
+ } 
+
+.footer-short-logo::before {
+  content: "";
+  width: 72px;
+  height: 74px;
+  background-color: #7151cf;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .footer-logo {
   width: 135px;
-  margin-bottom: 135px;
+  margin-bottom: 22px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -423,12 +445,23 @@
 
 .footer-slogan {
   font-family: "Open Sans";
-  font-size: 28px;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
   width: 220px;
+  font-size: 32px;
+  letter-spacing: 2px;
 }
+
+.footer-slogan .sport {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #9b8ec1;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 
 .footer-buttom {
   margin: 90px 0 85px;
